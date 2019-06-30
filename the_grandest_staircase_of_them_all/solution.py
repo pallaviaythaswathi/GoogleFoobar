@@ -9,5 +9,3 @@ def solution(n):
 				m[last][left] += m[last - 1][left - last]
 	          	
 	return (m[n][n] -1)
-
-print(solution(5))
