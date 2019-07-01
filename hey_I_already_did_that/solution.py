@@ -19,7 +19,6 @@ def solution(n, b):
         n = z
         
 def decimalToBase(dn, db):
-    '''Convert Desired No(dn) a positive number to desire Base(db)'''
     digits = []
     while dn > 0:
         digits.insert(0, str(dn % db))
@@ -27,7 +26,6 @@ def decimalToBase(dn, db):
     return ''.join(digits)
 
 def baseToDecimal(bn, cb):
-  '''Convert Base No(bn) a positive number to decimal wrt current Base(cb)'''
   n = 0
   for d in str(bn):
     n = cb * n + int(d)
