@@ -3,6 +3,7 @@ The solutions to challenges in Google Foobar that I did for fun.
 It is still in progress
 
 **Level 2**
+* [Hey I Already Did That](https://github.com/pallaviaythaswathi/GoogleFoobar/tree/master/hey_I_already_did_that)
 * [Power Hungry](https://github.com/pallaviaythaswathi/GoogleFoobar/tree/master/power_hungry)
 
 **Level 3**
