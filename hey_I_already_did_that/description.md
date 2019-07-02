@@ -20,23 +20,23 @@ Test cases
 ==========
 
 -- Java cases -- 
-Input:
+* Input:
 Solution.solution('210022', 3)
-Output:
+* Output:
     3
 
-Input:
+* Input:
 Solution.solution('1211', 10)
-Output:
+* Output:
     1
 
 -- Python cases -- 
-Input:
+* Input:
 solution.solution('1211', 10)
-Output:
+* Output:
     1
 
-Input:
+* Input:
 solution.solution('210022', 3)
-Output:
+* Output:
     3
