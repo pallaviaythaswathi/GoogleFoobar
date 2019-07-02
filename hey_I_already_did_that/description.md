@@ -16,16 +16,8 @@ Depending on the values of n, k (derived from n), and b, at some point the algor
 
 Given a minion ID as a string n representing a nonnegative integer of length k in base b, where 2 <= k <= 9 and 2 <= b <= 10, write a function solution(n, b) which returns the length of the ending cycle of the algorithm above starting with n. For instance, in the example above, solution(210022, 3) would return 3, since iterating on 102212 would return to 210111 when done in base 3. If the algorithm reaches a constant, such as 0, then the length is 1.
 
-Languages
-=========
-
-To provide a Java solution, edit Solution.java
-To provide a Python solution, edit solution.py
-
 Test cases
 ==========
-Your code should pass the following test cases.
-Note that it may also be run against hidden test cases not shown here.
 
 -- Java cases -- 
 Input:
