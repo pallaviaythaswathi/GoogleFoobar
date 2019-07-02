@@ -1,4 +1,4 @@
-#The problem is Absorbing Markov Chain
+#The problem is an Absorbing Markov Chain
 #The solution uses Matrix Inverse using Gaussian Elimination
 
 m = [[0, 1, 0, 0, 0, 1], [4, 0, 0, 3, 2, 0], [0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0]]
