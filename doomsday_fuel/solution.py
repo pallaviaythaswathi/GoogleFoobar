@@ -2,7 +2,6 @@
 #The solution uses Matrix Inverse using Gaussian Elimination
 
 m = [[0, 1, 0, 0, 0, 1], [4, 0, 0, 3, 2, 0], [0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0]]
-print(solution(m))
 
 from fractions import Fraction
 
@@ -135,3 +134,5 @@ def solution(m):
     res = list(map(lambda x: long(x.numerator*l/x.denominator), row))
     res.append(l)
     return res
+
+print(solution(m))
