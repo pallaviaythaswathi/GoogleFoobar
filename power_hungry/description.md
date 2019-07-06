@@ -13,23 +13,23 @@ Your code should pass the following test cases.
 Note that it may also be run against hidden test cases not shown here.
 
 -- Python cases -- 
-Input:
+* Input:
 solution.solution([2, 0, 2, 2, 0])
-Output:
+* Output:
     8
 
-Input:
+* Input:
 solution.solution([-2, -3, 4, -5])
-Output:
+* Output:
     60
 
 -- Java cases -- 
-Input:
+* Input:
 Solution.solution({2, 0, 2, 2, 0})
-Output:
+* Output:
     8
 
-Input:
+* Input:
 Solution.solution({-2, -3, 4, -5})
-Output:
+* Output:
     60
