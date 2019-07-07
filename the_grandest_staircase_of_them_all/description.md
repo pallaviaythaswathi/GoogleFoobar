@@ -16,7 +16,7 @@ When N = 4, you still only have 1 staircase choice:
 
 \# <br />
 \# <br />
-\##
+\## <br />
 31
  
 But when N = 5, there are two ways you can build a staircase from the given bricks. The two staircases can have heights (4, 1) or (3, 2), as shown below:
