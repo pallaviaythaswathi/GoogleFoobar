@@ -17,36 +17,15 @@ For example:
 solution(4) returns 2: 4 -> 2 -> 1
 solution(15) returns 5: 15 -> 16 -> 8 -> 4 -> 2 -> 1
 
-Languages
-=========
-
-To provide a Python solution, edit solution.py
-To provide a Java solution, edit Solution.java
-
 Test cases
 ==========
-Your code should pass the following test cases.
-Note that it may also be run against hidden test cases not shown here.
 
--- Python cases -- 
-Input:
+* Input:
 solution.solution('15')
-Output:
+* Output:
     5
 
-Input:
+* Input:
 solution.solution('4')
-Output:
+* Output:
     2
-
--- Java cases -- 
-Input:
-Solution.solution('4')
-Output:
-    2
-
-Input:
-Solution.solution('15')
-Output:
-    5
-    
