@@ -19,18 +19,6 @@ Given a minion ID as a string n representing a nonnegative integer of length k i
 Test cases
 ==========
 
--- Java cases -- 
-* Input:
-Solution.solution('210022', 3)
-* Output:
-    3
-
-* Input:
-Solution.solution('1211', 10)
-* Output:
-    1
-
--- Python cases -- 
 * Input:
 solution.solution('1211', 10)
 * Output:
