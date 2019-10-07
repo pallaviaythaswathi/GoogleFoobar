@@ -9,23 +9,24 @@ In addition to spending time traveling between bunnies, some paths interact with
 
 Write a function of the form solution(times, time_limit) to calculate the most bunnies you can pick up and which bunnies they are, while still escaping through the bulkhead before the doors close for good. If there are multiple sets of bunnies of the same size, return the set of bunnies with the lowest prisoner IDs (as indexes) in sorted order. The bunnies are represented as a sorted list by prisoner ID, with the first bunny being 0. There are at most 5 bunnies, and time_limit is a non-negative integer that is at most 999.
 
-For instance, in the case of
-[
-  [0, 2, 2, 2, -1],  # 0 = Start
-  [9, 0, 2, 2, -1],  # 1 = Bunny 0
-  [9, 3, 0, 2, -1],  # 2 = Bunny 1
-  [9, 3, 2, 0, -1],  # 3 = Bunny 2
-  [9, 3, 2, 2,  0],  # 4 = Bulkhead
-]
-and a time limit of 1, the five inner array rows designate the starting point, bunny 0, bunny 1, bunny 2, and the bulkhead door exit respectively. You could take the path:
+For instance, in the case of <br />
+\[ <br />
+  \[0, 2, 2, 2, -1],  # 0 = Start <br />
+  \[9, 0, 2, 2, -1],  # 1 = Bunny 0 <br />
+  \[9, 3, 0, 2, -1],  # 2 = Bunny 1 <br />
+  \[9, 3, 2, 0, -1],  # 3 = Bunny 2 <br />
+  \[9, 3, 2, 2,  0],  # 4 = Bulkhead <br />
+\] <br />
+and a time limit of 1, the five inner array rows designate the starting point, bunny 0, bunny 1, bunny 2, and the bulkhead door exit respectively. <br />
+You could take the path:
 
-Start End Delta Time Status
-    -   0     -    1 Bulkhead initially open
-    0   4    -1    2
-    4   2     2    0
-    2   4    -1    1
-    4   3     2   -1 Bulkhead closes
-    3   4    -1    0 Bulkhead reopens; you and the bunnies exit
+Start End Delta Time Status <br />
+    -   0     -    1 Bulkhead initially open <br />
+    0   4    -1    2 <br />
+    4   2     2    0 <br />
+    2   4    -1    1 <br />
+    4   3     2   -1 Bulkhead closes <br />
+    3   4    -1    0 Bulkhead reopens; you and the bunnies exit <br />
 
 With this solution, you would pick up bunnies 1 and 2. This is the best combination for this space station hallway, so the answer is [1, 2].
 
@@ -33,13 +34,12 @@ With this solution, you would pick up bunnies 1 and 2. This is the best combinat
 Test cases
 ==========
 
--- Python cases -- 
-Input:
+* Input:
 solution.solution([[0, 2, 2, 2, -1], [9, 0, 2, 2, -1], [9, 3, 0, 2, -1], [9, 3, 2, 0, -1], [9, 3, 2, 2, 0]], 1)
-Output:
+* Output:
     [1, 2]
 
-Input:
+* Input:
 solution.solution([[0, 1, 1, 1, 1], [1, 0, 1, 1, 1], [1, 1, 0, 1, 1], [1, 1, 1, 0, 1], [1, 1, 1, 1, 0]], 3)
-Output:
+* Output:
     [0, 1]
